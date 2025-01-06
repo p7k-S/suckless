@@ -1,3 +1,3 @@
 to install:
-    cd scripts
+    cd scripts;
     sudo ./install
