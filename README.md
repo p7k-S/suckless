@@ -1,3 +1,3 @@
-to install:
+to install run:
     cd scripts;
-    sudo ./install
+    ./install
