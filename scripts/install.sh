@@ -1,5 +1,9 @@
 #!/bin/sh
 
+echo "link startup.sh to .xinitrc"
+ln -sf /home/pavel/.config/suckless/scripts/startup_dwm.sh /home/pavel/.xinitrc 
+echo ""
+
 cd ..
 echo "dmenu:"
 echo ""
