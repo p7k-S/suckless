@@ -1,27 +1,3 @@
-erresc: unknown csi ESC[?2026$p
-erresc: unknown csi ESC[>4;2m
-erresc: unknown csi ESC[?2026$p
-erresc: unknown csi ESC[>4;2m
-erresc: unknown csi ESC[>4;0m
-erresc: unknown csi ESC[>4;0m
-erresc: unknown csi ESC[?2026$p
-erresc: unknown csi ESC[>4;2m
-erresc: unknown csi ESC[>4;0m
-erresc: unknown csi ESC[?2026$p
-erresc: unknown csi ESC[>4;2m
-erresc: unknown csi ESC[?2026$p
-erresc: unknown csi ESC[>4;2m
-erresc: unknown csi ESC[>4;0m
-erresc: unknown csi ESC[?2026$p
-erresc: unknown csi ESC[>4;2m
-erresc: unknown csi ESC[>4;0m
-erresc: unknown csi ESC[?2026$p
-erresc: unknown csi ESC[>4;2m
-erresc: unknown csi ESC[>4;0m
-erresc: unknown csi ESC[?2026$p
-erresc: unknown csi ESC[>4;2m
-erresc: unknown csi ESC[>4;0m
-erresc: unknown csi ESC[?2026$p
-erresc: unknown csi ESC[>4;2m
-erresc: unknown csi ESC[>4;0m
-erresc: unknown csi ESC[>4;0m
+[/home/pavel/.config/pulse/client.conf:37] Unknown lvalue 'default-sample-format' in section 'n/a'.
+[/home/pavel/.config/pulse/client.conf:37] Unknown lvalue 'default-sample-format' in section 'n/a'.
+[/home/pavel/.config/pulse/client.conf:37] Unknown lvalue 'default-sample-format' in section 'n/a'.
