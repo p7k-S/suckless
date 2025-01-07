@@ -3,6 +3,9 @@
 echo "link startup.sh to .xinitrc"
 ln -sf /home/pavel/.config/suckless/scripts/startup_dwm.sh /home/pavel/.xinitrc 
 echo ""
+echo "link all scripts to /usr/local/bin"
+sudo ln -sf /home/pavel/.config/suckless/scripts/* /usr/local/bin/ 
+echo ""
 
 cd ..
 echo "dmenu:"

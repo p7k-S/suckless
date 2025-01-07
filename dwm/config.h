@@ -2,7 +2,7 @@
 
 static const unsigned int borderpx  = 1;
 static const unsigned int snap      = 32;
-static const int showbar            = 0;
+static const int showbar            = 1;
 static const int topbar             = 1;
 static const char *fonts[]          = { "JetBrainsMono Nerd Font :size=11" };
 static const char col_gray1[]       = "#111111";
@@ -10,9 +10,10 @@ static const char col_gray2[]       = "#444444";
 static const char col_gray3[]       = "#ebdbb2";
 static const char col_gray4[]       = "#b8bb26";
 static const char col_cyan[]        = "#1a1b1c";
+static const char bord_inac[]       = "#000000";
 
 static const char *colors[][3]      = {
-	[SchemeNorm] = { col_gray3, col_gray1, col_gray1 },
+	[SchemeNorm] = { col_gray3, col_gray1, bord_inac },
 	[SchemeSel]  = { col_gray4, col_cyan,  col_gray2 },
 };
 
@@ -32,9 +33,9 @@ static const Rule rules[] = {
     { "Pcmanfm",            NULL,               NULL,           0,              1,              -1 },
 	{ "St",                 NULL,               NULL,           0,              0,              -1 },
     { "St",                 "stfloat",          NULL,           0,              1,              -1 },
-    { "St",                 "calculator",       NULL,           0,              1,              -1 },
-    { "St",                 "task_1",           NULL,           0,              1,              -1 },
-    { "St",                 "pulsemixer",       NULL,           0,              1,              -1 },
+    { "st-256color",        "calculator",       NULL,           0,              1,              -1 },
+    { "st-256color",        "task_1",           NULL,           0,              1,              -1 },
+    { "st-256color",        "pulsemixer",       NULL,           0,              1,              -1 },
 	{ NULL,                 NULL,               "Event Tester",                 0,              -1 },
 };
 
