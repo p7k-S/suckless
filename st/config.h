@@ -6,6 +6,7 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 static char *font = "JetBrainsMono Nerd Font:pixelsize=20:antialias=true:autohint=true";
+// static char *font = "TerminessNerdFontMono:pixelsize=24:antialias=true:autohint=true";
 static int borderpx = 0;
 
 /*
@@ -122,6 +123,14 @@ static const char *colorname[] = {
     "#090909", /* 258 -> bg */
     "#ebdbb2", /* 259 -> fg */
 };
+/*
+ * Default colors (colorname index)
+ * foreground, background, cursor, reverse cursor
+ */
+unsigned int defaultfg = 259;
+unsigned int defaultbg = 258;
+unsigned int defaultcs = 256;
+static unsigned int defaultrcs = 257;
 
 
 
@@ -155,16 +164,16 @@ static const char *colorname[] = {
 // 	"gray90", /* default foreground colour */
 // 	"black", /* default background colour */
 // };
-
-
-/*
- * Default colors (colorname index)
- * foreground, background, cursor, reverse cursor
- */
-unsigned int defaultfg = 259;
-unsigned int defaultbg = 258;
-unsigned int defaultcs = 256;
-static unsigned int defaultrcs = 257;
+//
+//
+// /*
+//  * Default colors (colorname index)
+//  * foreground, background, cursor, reverse cursor
+//  */
+// unsigned int defaultfg = 258;
+// unsigned int defaultbg = 259;
+// unsigned int defaultcs = 256;
+// static unsigned int defaultrcs = 257;
 
 /*
  * Default shape of cursor

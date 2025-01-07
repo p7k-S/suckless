@@ -15,8 +15,8 @@ clipmenud &
 picom --config ~/.config/picom/picom.conf &
 # feh --bg-scale /home/pavel/Pictures/Wallpapers/monochrome_leafs.avif &
 feh --bg-scale /home/pavel/Pictures/Wallpapers/zvezdnoe_nebo_derevo_noch_119989_2560x1440.jpg &
-~/.config/suckless/scripts/brightness_warn_dec_15.sh &
-~/.tmux/scrpad.sh &
+brightness_warn_dec_15.sh &
+scrpad.sh &
 # xrdb -merge -I$HOME ~/.Xresources &
 /usr/libexec/xfce-polkit &
 

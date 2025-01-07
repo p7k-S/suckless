@@ -13,7 +13,7 @@ static const char col_cyan[]        = "#1a1b1c";
 static const char bord_inac[]       = "#000000";
 
 static const char *colors[][3]      = {
-	[SchemeNorm] = { col_gray3, col_gray1, bord_inac },
+	[SchemeNorm] = { col_gray3, col_gray1, col_gray1 },
 	[SchemeSel]  = { col_gray4, col_cyan,  col_gray2 },
 };
 
