@@ -13,7 +13,7 @@ static const char col_cyan[]        = "#1a1b1c";
 static const char bord_inac[]       = "#000000";
 
 static const char *colors[][3]      = {
-	[SchemeNorm] = { col_gray3, col_gray1, col_gray1 },
+	[SchemeNorm] = { col_gray3, col_gray1, bord_inac },
 	[SchemeSel]  = { col_gray4, col_cyan,  col_gray2 },
 };
 
@@ -27,6 +27,7 @@ static const Rule rules[] = {
 	{ "Gimp",               NULL,               NULL,           1 << 3,         0,              -1 },
 	{ "mtpaint",            NULL,               NULL,           1 << 3,         0,              -1 },
 	{ "Firefox",            NULL,               NULL,           1 << 1,         0,              -1 },
+	{ "Brave",      NULL,               NULL,           1 << 1,         0,              -1 },
     { "Thorium-browser",    NULL,               NULL,           1 << 1,         0,              -1 },
     { "qutebrowser",        NULL,               NULL,           1 << 1,         0,              -1 },
     { "TelegramDesktop",    NULL,               NULL,           1 << 2,         0,              -1 },
@@ -63,7 +64,7 @@ static char dmenumon[2] = "0";
 static const char *termcmd[]        = { "st", NULL };
 static const char *file_manager[]   = { "pcmanfm", NULL };
 static const char *paint[]          = { "mtpaint", NULL };
-static const char *browser[]        = { "thorium.AppImage", NULL };
+static const char *browser[]        = { "brave", NULL };
 static const char *Telegram[]       = { "telegram-desktop", NULL };
 static const char *dmenucmd[]       = { "dmenu_run", "-p", "run:", NULL };
 static const char *clipboard[]      = { "clipmenu", "-p", "coppy:", NULL };

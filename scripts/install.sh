@@ -18,7 +18,7 @@ cd ../st && sudo rm config.h && sudo make clean install
 echo ""
 echo "devour:"
 echo ""
-cd ../devour && sudo make clean install
+cd ../devour && sudo make install
 echo ""
 echo "dwm:"
 echo ""

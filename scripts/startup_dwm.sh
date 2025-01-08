@@ -18,11 +18,11 @@ feh --bg-scale /home/pavel/Pictures/Wallpapers/zvezdnoe_nebo_derevo_noch_119989_
 brightness_warn_dec_15.sh &
 scrpad.sh &
 # xrdb -merge -I$HOME ~/.Xresources &
-/usr/libexec/xfce-polkit &
 
+brave &
 telegram-desktop &
 st &
-thorium.AppImage &
+# thorium.AppImage &
 # xrdb -merge -I$HOME ~/.Xresources &
 # qutebrowser &
 # firefox &

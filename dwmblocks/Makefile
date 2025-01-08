@@ -29,7 +29,6 @@ install: dwmblocks
 	mkdir -p ${DESTDIR}${PREFIX}/bin
 	cp -f dwmblocks ${DESTDIR}${PREFIX}/bin
 	chmod 755 ${DESTDIR}${PREFIX}/bin/dwmblocks
-	# cp -r /home/pavel/.config/suckless/dwmblocks/scripts/* /usr/local/bin/
 
 uninstall:
 	rm -f ${DESTDIR}${PREFIX}/bin/dwmblocks
