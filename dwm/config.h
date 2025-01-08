@@ -118,8 +118,11 @@ static const Key keys[] = {
     { 0, XF86XK_AudioLowerVolume,              spawn,          SHCMD("pactl set-sink-volume @DEFAULT_SINK@ -5% && pkill -RTMIN+10 dwmblocks") },
     { 0, XF86XK_AudioMute,                     spawn,          SHCMD("pactl set-sink-volume @DEFAULT_SINK@  0% && pkill -RTMIN+10 dwmblocks") },
     { 0, XF86XK_AudioMicMute,                  spawn,          SHCMD("pactl set-source-mute @DEFAULT_SOURCE@ toggle && pkill -RTMIN+3 dwmblocks") },
-    { 0, XF86XK_MonBrightnessUp,               spawn,          SHCMD("light -A 5 && ~/.config/suckless/scripts/brightness.sh") },
-    { 0, XF86XK_MonBrightnessDown,             spawn,          SHCMD("light -U 5 && ~/.config/suckless/scripts/brightness.sh") },
+    // { 0, XF86XK_MonBrightnessUp,               spawn,          SHCMD("light -A 5 && ~/.config/suckless/scripts/brightness.sh") },
+    // { 0, XF86XK_MonBrightnessDown,             spawn,          SHCMD("light -U 5 && ~/.config/suckless/scripts/brightness.sh") },
+    { 0, XF86XK_MonBrightnessUp,               spawn,          SHCMD("brightnessctl -c backlight set +7% && brightness.sh") },
+    { 0, XF86XK_MonBrightnessDown,             spawn,          SHCMD("brightnessctl -c backlight set 7%- && brightness.sh") },
+
     { ShiftMask,          		XK_Alt_L,      spawn,          SHCMD("pkill -RTMIN+2 dwmblocks") },
     { Mod1Mask,                 XK_Shift_L,    spawn,          SHCMD("pkill -RTMIN+2 dwmblocks") },
 

@@ -100,12 +100,12 @@ static const Key keys[] = {
 	TAGKEYS(                        XK_4,                      3)
 	TAGKEYS(                        XK_5,                      4)
 	{ MODKEY|ShiftMask,             XK_r,      quit,           {0} },
-	{ MODKEY|ShiftMask,             XK_c,      spawn,          SHCMD("/home/pavel/.config/suckless/scripts/logout.sh") },
-	{ MODKEY|ShiftMask,             XK_k,      spawn,          SHCMD("/home/pavel/.config/suckless/scripts/dmenu-kill") },
+	{ MODKEY|ShiftMask,             XK_c,      spawn,          SHCMD("logout.sh") },
+	{ MODKEY|ShiftMask,             XK_k,      spawn,          SHCMD("dmenu-kill") },
     TAGKEYS(                        XK_w,                      1)
     TAGKEYS(                        XK_c,                      2)
     TAGKEYS(                        XK_g,                      3)
-    { 0,                            XK_Print,  spawn,          SHCMD("/home/pavel/.config/suckless/scripts/screenshot.sh") },
+    { 0,                            XK_Print,  spawn,          SHCMD("screenshot.sh") },
     { ShiftMask,                    XK_Print,  spawn,          SHCMD("scrot ~/Pictures/Screenshots/%y-%m-%d_%h-%m-%s_$wx$h.png && xsetroot -name ' screenshot saved in ~/Pictures/Screenshots '") },
     { MODKEY,                       XK_v,      spawn, 	       {.v = clipboard} },
     { MODKEY,                       XK_w,      spawn,          {.v = browser} },
@@ -118,8 +118,9 @@ static const Key keys[] = {
     { 0, XF86XK_AudioLowerVolume,              spawn,          SHCMD("pactl set-sink-volume @DEFAULT_SINK@ -5% && pkill -RTMIN+10 dwmblocks") },
     { 0, XF86XK_AudioMute,                     spawn,          SHCMD("pactl set-sink-volume @DEFAULT_SINK@  0% && pkill -RTMIN+10 dwmblocks") },
     { 0, XF86XK_AudioMicMute,                  spawn,          SHCMD("pactl set-source-mute @DEFAULT_SOURCE@ toggle && pkill -RTMIN+3 dwmblocks") },
-    { 0, XF86XK_MonBrightnessUp,               spawn,          SHCMD("light -A 5 && ~/.config/suckless/scripts/brightness.sh") },
-    { 0, XF86XK_MonBrightnessDown,             spawn,          SHCMD("light -U 5 && ~/.config/suckless/scripts/brightness.sh") },
+    { 0, XF86XK_MonBrightnessUp,               spawn,          SHCMD("brightnessctl -c backlight set +7% && brightness.sh") },
+    { 0, XF86XK_MonBrightnessDown,             spawn,          SHCMD("brightnessctl -c backlight set 7%- && brightness.sh") },
+
     { ShiftMask,          		XK_Alt_L,      spawn,          SHCMD("pkill -RTMIN+2 dwmblocks") },
     { Mod1Mask,                 XK_Shift_L,    spawn,          SHCMD("pkill -RTMIN+2 dwmblocks") },
 
