@@ -11,7 +11,8 @@ brightness () {
     battery_capacity=$(cat /sys/class/power_supply/BAT1/capacity)
 
     if [ "$battery_capacity" -lt 7 ]; then
-        light -S 0
+        brightnessctl -c backlight set 0%
+        # light -S 0
         # notify-send -u critical "BAT LOW 7%" -t 5000
         touch "$flag_file7"
     fi

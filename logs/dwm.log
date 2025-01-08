@@ -1,33 +1,8 @@
-df: /dev/nvme0n1p6: No such file or directory
-mountpoint: bad usage
-Try 'mountpoint --help' for more information.
-df: /dev/nvme0n1p7: No such file or directory
-mountpoint: bad usage
-Try 'mountpoint --help' for more information.
-df: /dev/nvme0n1p6: No such file or directory
-mountpoint: bad usage
-Try 'mountpoint --help' for more information.
-df: /dev/nvme0n1p7: No such file or directory
-mountpoint: bad usage
-Try 'mountpoint --help' for more information.
-df: /dev/nvme0n1p6: No such file or directory
-mountpoint: bad usage
-Try 'mountpoint --help' for more information.
-df: /dev/nvme0n1p7: No such file or directory
-mountpoint: bad usage
-Try 'mountpoint --help' for more information.
-df: /dev/nvme0n1p6: No such file or directory
-mountpoint: bad usage
-Try 'mountpoint --help' for more information.
-df: /dev/nvme0n1p7: No such file or directory
-mountpoint: bad usage
-Try 'mountpoint --help' for more information.
 erresc: unknown csi ESC[?2026$p
 erresc: unknown csi ESC[>4;2m
 erresc: unknown csi ESC[>4;0m
-df: /dev/nvme0n1p6: No such file or directory
-mountpoint: bad usage
-Try 'mountpoint --help' for more information.
-df: /dev/nvme0n1p7: No such file or directory
-mountpoint: bad usage
-Try 'mountpoint --help' for more information.
+s] Appearance Page cannot find use default theme button template", source: chrome://settings/settings.js (2446)
+Fontconfig error: Cannot load default config file: No such file: (null)
+erresc: unknown csi ESC[?2026$p
+erresc: unknown csi ESC[>4;2m
+erresc: unknown csi ESC[>4;0m

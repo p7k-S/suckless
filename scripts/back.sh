@@ -1,6 +1,7 @@
 #!/bin/sh
 
-cd && pacman -Qq > Backups/installed_pkgs && pacman -Qmq >> Backups/installed_pkgs && tar czf cfg_backup_void.tar.gz \
+cd && pacman -Qq > Backups/installed_pkgs && pacman -Qmq >> Backups/installed_pkgs && tar czf cfg_backup_arch.tar.gz \
+    Pictures/Wallpapers/gruv_leaf.jpg \
     ~/Backups/installed_pkgs \
     .config/zathura/* \
     .Xresources \
@@ -20,7 +21,7 @@ cd && pacman -Qq > Backups/installed_pkgs && pacman -Qmq >> Backups/installed_pk
     /etc/doas.conf \
     /etc/pacman.d/mirrorlist \
     /etc/pacman.conf \
-    && mv cfg_backup_void.tar.gz Backups && cd -
+    && mv cfg_backup_arch.tar.gz Backups && cd -
 
 
     # .config/minimal/suckless.tar.gz \

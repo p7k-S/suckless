@@ -1,3 +1,4 @@
+// arch linux
 #include <X11/XF86keysym.h>
 
 static const unsigned int borderpx  = 1;
@@ -25,8 +26,8 @@ const char *st_pulsemixer[]     = {"st", "-n", "pulsemixer", "-g", "100x20", "-e
 
 static const Rule rules[] = {
 	{ "Gimp",               NULL,               NULL,           1 << 3,         0,              -1 },
-	{ "mtpaint",            NULL,               NULL,           1 << 3,         0,              -1 },
-	{ "Firefox",            NULL,               NULL,           1 << 1,         0,              -1 },
+	{ "Mtpaint",            NULL,               NULL,           1 << 3,         0,              -1 },
+	{ "firefox",            NULL,               NULL,           1 << 1,         0,              -1 },
 	{ "Brave",              NULL,               NULL,           1 << 1,         0,              -1 },
     { "Thorium-browser",    NULL,               NULL,           1 << 1,         0,              -1 },
     { "qutebrowser",        NULL,               NULL,           1 << 1,         0,              -1 },
