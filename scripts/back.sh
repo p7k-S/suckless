@@ -1,9 +1,7 @@
 #!/bin/sh
 
-cd && xpkg -m > Backups/installed_pkgs && tar czf cfg_backup_void.tar.gz \
-    ~/Backups/back.sh \
+cd && pacman -Qq > Backups/installed_pkgs && pacman -Qmq >> Backups/installed_pkgs && tar czf cfg_backup_void.tar.gz \
     ~/Backups/installed_pkgs \
-    .fonts/JetBrains/* \
     .config/zathura/* \
     .Xresources \
     .gitstatus/* \
@@ -17,17 +15,18 @@ cd && xpkg -m > Backups/installed_pkgs && tar czf cfg_backup_void.tar.gz \
     .zshrc \
     .Xresources \
     .tmux.conf \
-    Pictures/Wallpapers/zdanie_minimalizm_chb_132403_1920x1080.jpg\
-    Pictures/Wallpapers/zvezdnoe_nebo_derevo_noch_119989_2560x1440.jpg\
-    /etc/doas.conf \
-    /etc/X11/xorg.conf.d/* \
-    /etc/iwd/* \
     /usr/share/xsessions/dwm.desktop \
+    /etc/X11/xorg.conf.d/* \
+    /etc/doas.conf \
+    /etc/pacman.d/mirrorlist \
+    /etc/pacman.conf \
     && mv cfg_backup_void.tar.gz Backups && cd -
 
 
     # .config/minimal/suckless.tar.gz \
     # /etc/pacman.d/mirrorlist_sorted.backup \
+    
+    # .fonts/JetBrains/* \
     
     # .xinitrc \
     # /etc/doas.conf \

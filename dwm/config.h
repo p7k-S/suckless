@@ -27,7 +27,7 @@ static const Rule rules[] = {
 	{ "Gimp",               NULL,               NULL,           1 << 3,         0,              -1 },
 	{ "mtpaint",            NULL,               NULL,           1 << 3,         0,              -1 },
 	{ "Firefox",            NULL,               NULL,           1 << 1,         0,              -1 },
-	{ "Brave",      NULL,               NULL,           1 << 1,         0,              -1 },
+	{ "Brave",              NULL,               NULL,           1 << 1,         0,              -1 },
     { "Thorium-browser",    NULL,               NULL,           1 << 1,         0,              -1 },
     { "qutebrowser",        NULL,               NULL,           1 << 1,         0,              -1 },
     { "TelegramDesktop",    NULL,               NULL,           1 << 2,         0,              -1 },
