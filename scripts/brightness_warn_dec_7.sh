@@ -1,7 +1,8 @@
 #!/bin/sh
 
-brightness () {
-    flag_file7="/tmp/battery_brightness_flag7"
+if ps aux | grep -v grep | grep /brightness_warn_dec_7.sh > /dev/null; then
+    brightness () {
+        flag_file7="/tmp/battery_brightness_flag7"
 
     # Проверяем, существует ли файл-флаг
     if [ -f "$flag_file7" ]; then
@@ -19,5 +20,6 @@ brightness () {
 }
 
 while true; do
-  sleep 60 && brightness
+    sleep 60 && brightness
 done
+fi

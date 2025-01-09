@@ -18,7 +18,7 @@ static const char *colors[][3]      = {
 	[SchemeSel]  = { col_gray4, col_cyan,  col_gray2 },
 };
 
-static const char *tags[] = { "α", "β", "ɣ", "δ", "ε" };
+static const char *tags[] = { "!", "@", "#", "$", "%" };
 
 const char *calc[]              = {"st", "-n", "calculator", "-g", "50x25",  "-e", "python3", "-ic", "from math import *",   NULL };
 const char *st_scrpad[]         = {"st", "-n", "task_1",     "-g", "160x20", "-e", "tmux", "attach", "-d", "-t", "scrpad",   NULL };

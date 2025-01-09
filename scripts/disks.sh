@@ -1,6 +1,6 @@
 #!/bin/sh
 
-partition="/dev/nvme0n1p6"; #root
+partition="/dev/nvme0n1p2"; #root
 if mountpoint -q $(df --output=target $partition | tail -n +2); then
     usage=$(df -h | grep "$partition")
     size=$(echo "$usage" | awk '{print $2}')
@@ -16,7 +16,7 @@ if mountpoint -q $(df --output=target $partition | tail -n +2); then
     # echo
 fi
 
-partition="/dev/nvme0n1p7"; #home
+partition="/dev/nvme0n1p3"; #home
 if mountpoint -q $(df --output=target $partition | tail -n +2); then
     usage=$(df -h | grep "$partition")
     size=$(echo "$usage" | awk '{print $2}')

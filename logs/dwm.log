@@ -1,8 +1,2 @@
 erresc: unknown csi ESC[?2026$p
 erresc: unknown csi ESC[>4;2m
-erresc: unknown csi ESC[>4;0m
-s] Appearance Page cannot find use default theme button template", source: chrome://settings/settings.js (2446)
-Fontconfig error: Cannot load default config file: No such file: (null)
-erresc: unknown csi ESC[?2026$p
-erresc: unknown csi ESC[>4;2m
-erresc: unknown csi ESC[>4;0m
