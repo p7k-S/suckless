@@ -1,11 +1,90 @@
-erresc: unknown csi ESC[?2026$p
-erresc: unknown csi ESC[>4;2m
-erresc: unknown csi ESC[?2026$p
-erresc: unknown csi ESC[>4;2m
-erresc: unknown csi ESC[>4;0m
-erresc: unknown csi ESC[?2026$p
-erresc: unknown csi ESC[>4;2m
-erresc: unknown csi ESC[>4;0m
-erresc: unknown csi ESC[?2026$p
-erresc: unknown csi ESC[>4;2m
-erresc: unknown csi ESC[>4;0m
+[9134:9134:0112/132028.080001:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.isEnabled: object_path= /modules/kwalletd6: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+[9134:9134:0112/132028.080081:ERROR:kwallet_dbus.cc(117)] Error contacting kwalletd6 (isEnabled)
+[9134:9134:0112/132028.080180:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KLauncher.start_service_by_desktop_name: object_path= /KLauncher: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+[9134:9134:0112/132028.080188:ERROR:kwallet_dbus.cc(86)] Error contacting klauncher to start kwalletd6
+[9134:9134:0112/132028.080260:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.close: object_path= /modules/kwalletd6: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+[9134:9134:0112/132028.080267:ERROR:kwallet_dbus.cc(412)] Error contacting kwalletd6 (close)
+[9134:9134:0112/132028.080940:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.isEnabled: object_path= /modules/kwalletd5: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+[9134:9134:0112/132028.080960:ERROR:kwallet_dbus.cc(117)] Error contacting kwalletd5 (isEnabled)
+[9134:9134:0112/132028.081048:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KLauncher.start_service_by_desktop_name: object_path= /KLauncher: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+[9134:9134:0112/132028.081055:ERROR:kwallet_dbus.cc(86)] Error contacting klauncher to start kwalletd5
+[9134:9134:0112/132028.081123:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.close: object_path= /modules/kwalletd5: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+[9134:9134:0112/132028.081130:ERROR:kwallet_dbus.cc(412)] Error contacting kwalletd5 (close)
+[9134:9134:0112/132028.081717:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.isEnabled: object_path= /modules/kwalletd: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+[9134:9134:0112/132028.081728:ERROR:kwallet_dbus.cc(117)] Error contacting kwalletd (isEnabled)
+[9134:9134:0112/132028.081813:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KLauncher.start_service_by_desktop_name: object_path= /KLauncher: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+[9134:9134:0112/132028.081820:ERROR:kwallet_dbus.cc(86)] Error contacting klauncher to start kwalletd
+[9134:9134:0112/132028.081888:ERROR:object_proxy.cc(576)] Failed to call method: org.kde.KWallet.close: object_path= /modules/kwalletd: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+[9134:9134:0112/132028.081894:ERROR:kwallet_dbus.cc(412)] Error contacting kwalletd (close)
+[9134:9280:0112/132028.332951:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.DBus.Properties.Get: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+[9134:9280:0112/132028.333059:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.UPower.GetDisplayDevice: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+[9134:9280:0112/132028.333117:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.UPower.EnumerateDevices: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+Warning: disabling flag --expose_wasm due to conflicting flags
+Fontconfig error: Cannot load default config file: No such file: (null)
+erresc: unknown csi ESC[>c
+erresc: unknown csi ESC[>q
+erresc: unknown private set/reset mode 7727
+
+** (pcmanfm:26800): WARNING **: 13:32:23.787: The directory '~/Templates' doesn't exist, ignoring it
+
+(pcmanfm:26800): GLib-GIO-CRITICAL **: 13:32:23.894: GFileInfo created without standard::edit-name
+
+(pcmanfm:26800): GLib-GIO-CRITICAL **: 13:32:23.894: file ../glib/gio/gfileinfo.c: line 1742 (g_file_info_get_edit_name): should not be reached
+
+(pcmanfm:26800): GLib-GIO-CRITICAL **: 13:32:23.894: GFileInfo created without standard::size
+
+(pcmanfm:26800): GLib-GIO-CRITICAL **: 13:32:23.894: file ../glib/gio/gfileinfo.c: line 1845 (g_file_info_get_size): should not be reached
+
+(pcmanfm:26800): GLib-GIO-CRITICAL **: 13:32:23.894: GFileInfo created without standard::content-type
+
+(pcmanfm:26800): GLib-GIO-CRITICAL **: 13:32:23.894: file ../glib/gio/gfileinfo.c: line 1821 (g_file_info_get_content_type): should not be reached
+
+(pcmanfm:26800): GLib-GIO-CRITICAL **: 13:32:23.894: GFileInfo created without standard::is-symlink
+
+(pcmanfm:26800): GLib-GIO-CRITICAL **: 13:32:23.894: file ../glib/gio/gfileinfo.c: line 1676 (g_file_info_get_is_symlink): should not be reached
+
+(pcmanfm:26800): GLib-GIO-CRITICAL **: 13:32:23.894: GFileInfo created without standard::is-backup
+
+(pcmanfm:26800): GLib-GIO-CRITICAL **: 13:32:23.894: file ../glib/gio/gfileinfo.c: line 1654 (g_file_info_get_is_backup): should not be reached
+
+(pcmanfm:26800): Gtk-WARNING **: 13:32:23.895: Theme parsing error: <data>:2:27: The style property GtkWidget:focus-padding is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(pcmanfm:26800): Gtk-WARNING **: 13:32:23.895: Theme parsing error: <data>:3:30: The style property GtkWidget:focus-line-width is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(pcmanfm:26800): Gtk-WARNING **: 13:32:23.909: Could not load a pixbuf from icon theme.
+This may indicate that pixbuf loaders or the mime database could not be found.
+
+(pcmanfm:26800): Gtk-WARNING **: 13:32:24.330: gtk_menu_detach(): menu is not attached
+
+** (pcmanfm:38578): WARNING **: 13:40:36.545: The directory '~/Templates' doesn't exist, ignoring it
+
+(pcmanfm:38578): GLib-GIO-CRITICAL **: 13:40:36.612: GFileInfo created without standard::edit-name
+
+(pcmanfm:38578): GLib-GIO-CRITICAL **: 13:40:36.612: file ../glib/gio/gfileinfo.c: line 1742 (g_file_info_get_edit_name): should not be reached
+
+(pcmanfm:38578): GLib-GIO-CRITICAL **: 13:40:36.612: GFileInfo created without standard::size
+
+(pcmanfm:38578): GLib-GIO-CRITICAL **: 13:40:36.612: file ../glib/gio/gfileinfo.c: line 1845 (g_file_info_get_size): should not be reached
+
+(pcmanfm:38578): GLib-GIO-CRITICAL **: 13:40:36.612: GFileInfo created without standard::content-type
+
+(pcmanfm:38578): GLib-GIO-CRITICAL **: 13:40:36.612: file ../glib/gio/gfileinfo.c: line 1821 (g_file_info_get_content_type): should not be reached
+
+(pcmanfm:38578): GLib-GIO-CRITICAL **: 13:40:36.612: GFileInfo created without standard::is-symlink
+
+(pcmanfm:38578): GLib-GIO-CRITICAL **: 13:40:36.612: file ../glib/gio/gfileinfo.c: line 1676 (g_file_info_get_is_symlink): should not be reached
+
+(pcmanfm:38578): GLib-GIO-CRITICAL **: 13:40:36.612: GFileInfo created without standard::is-backup
+
+(pcmanfm:38578): GLib-GIO-CRITICAL **: 13:40:36.612: file ../glib/gio/gfileinfo.c: line 1654 (g_file_info_get_is_backup): should not be reached
+
+(pcmanfm:38578): Gtk-WARNING **: 13:40:36.612: Theme parsing error: <data>:2:27: The style property GtkWidget:focus-padding is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(pcmanfm:38578): Gtk-WARNING **: 13:40:36.612: Theme parsing error: <data>:3:30: The style property GtkWidget:focus-line-width is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(pcmanfm:38578): Gtk-WARNING **: 13:40:36.623: Could not load a pixbuf from icon theme.
+This may indicate that pixbuf loaders or the mime database could not be found.
+
+(pcmanfm:38578): Gtk-WARNING **: 13:41:55.298: gtk_menu_detach(): menu is not attached
+
+(pcmanfm:38578): Gtk-WARNING **: 13:41:55.491: gtk_menu_detach(): menu is not attached
